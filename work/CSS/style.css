@@ -1,0 +1,54 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background-color: gray;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#wrapper
+{
+  margin:auto;
+  padding: 1em 1em;
+}
+
+
+p
+{
+  padding: .5em;
+}
+
+h1
+{
+  padding:.5em
+}
+
+
+#container1
+{
+  background-color: #474747;
+}
+
+
+#container1
+{
+
+}
+
+.boxleft
+{
+  width:300px;
+  height: 300px;
+  font-size: .5em;
+  color: white;
+  background-color: #474747;
+  text-align: center;
+  display: inline;
+  margin:10px 20px;
+  padding: 10px;
+  float:left;
+}

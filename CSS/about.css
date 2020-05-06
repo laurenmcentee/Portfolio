@@ -1,0 +1,248 @@
+a
+{
+  color:#fff;
+}
+a:focus,
+a:hover {
+  color: #60A8AB;
+}
+
+/* Base structure*/
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+body {
+  color: #2B2931;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+
+}
+
+nav
+{
+  background-color: #2B2931;
+}
+
+.jumbotron
+{
+  width: 100%;
+  background-color: #e47948;
+  height: 18em;
+
+}
+
+img
+{
+
+  float:left;
+
+}
+
+.display-3
+{
+  font-weight: 500;
+  margin-left: 5em;
+  margin-top: 2.8em;
+  letter-spacing: .08em;
+  color: #ecad4e;
+  text-shadow: 5px 0px 0px #60A8AB;
+  font-size: 300%;
+}
+#aboutme
+{
+  margin-bottom: 5em;
+  margin-left: 20em;
+  color: rgba(0, 0, 0, .5);
+}
+
+
+h2
+{
+  margin: 0 auto;
+  letter-spacing: .08em;
+  color:#e47948;
+  text-shadow: 5px 0px 0px #ecad4e;
+  font-size: 500%;
+}
+
+/* CARD STUFF */
+.card-title, .card-text
+{
+  color: #ecad4e;
+  font-size: 130%;
+  font-weight: bolder;
+}
+
+#code
+{
+  font-family: 'Arvo', serif;
+  text-align: center;
+  font-size: 200%
+}
+
+#design
+{
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Concert One', cursive;
+}
+
+.card
+{
+  clear: both;
+  float: left;
+  border: none;
+
+}
+
+.card-body
+{
+  border: none;
+  min-width: 20em;
+  max-width: 30em;
+  margin: 2em;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+  background-color:rgba(0, 0, 0, .5);
+}
+
+.progress
+{
+  height: 4em;
+}
+.progress-bar
+{
+  text-shadow: none;
+  letter-spacing: .08em;
+  font-size: 140%;
+  background-color: #60A8AB;
+}
+
+
+.btn
+{
+  clear: both;
+  margin: 0 5em 2em 5em;
+  height: 3em;
+  width: 50%;
+  background-color: #60A8AB;
+  color: #fff;
+}
+
+.btn:focus,
+.btn:hover
+{
+background-color: #ecad4e;
+}
+
+.container-fluid
+{
+  background-color:inherit;
+  height: 30em;
+}
+.container-fluid p
+{
+  padding: 2em;
+  font-size: 120%
+}
+footer
+{
+  clear:both;
+  height: 7em;
+  background-color:  #2B2931;
+  color: #fff;
+}
+
+#contact h2
+{
+  margin-top: 1.25em;
+}
+.blue
+{
+  background-color:  #60A8AB;
+  padding: 3em 0 2em 0;
+}
+.blue h2
+{
+  margin-left: .5em;
+  margin-top: .5em
+}
+
+.text-center
+{
+  color: #ecad4e;
+  text-shadow: 3px 0px 0px #60A8AB;
+  margin-top: 1em;
+}
+form
+{
+  text-shadow: none;
+  margin-top:2em;
+  margin-left:1em;
+  margin-right:1em
+}
+
+ input
+{
+  margin: .5em;
+}
+
+.form-group
+{
+  margin-top: 2em;
+}
+
+section h6
+{
+  margin: 1em 1em 1em 1em;
+  letter-spacing: .08em;
+  color:#e47948;
+  text-shadow: 5px 0px 0px #ecad4e;
+  font-size: 400%;
+}
+section img
+{
+  height: 2em;
+  box-shadow: none;
+}
+
+/* \\\\\\\\\\\\\ MEDIA QUERIES \\\\\\\\\\\\\\\\\\ */
+@media (max-width: 768px)
+ {
+   .container-fluid
+   {
+     clear: both;
+   }
+    body
+    {
+      background-color: inherite;
+    }
+    .card
+    {
+      margin-left: 0 auto;
+    }
+}
+
+@media (min-width: 768px)
+ {
+   #contact
+   {
+     margin: 10em;
+   }
+ }
+
+@media (min-width: 1100px)
+{
+  .container-fluid p
+  {
+    padding: 4em;
+    font-size: 150%
+  }
+
+    #contact
+    {
+      margin:5em 20em 5em 20em;
+    }
+}

@@ -1,0 +1,46 @@
+a
+{
+  color:#ecad4e;
+}
+a:focus,
+a:hover {
+  color: #60A8AB;
+}
+
+/* Base structure*/
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+body {
+  color: #2B2931;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+
+}
+
+nav
+{
+  background-color: #2B2931;
+}
+
+#space
+{
+  margin-top: 6em;
+}
+
+h5
+{
+  text-align: center;
+}
+
+button
+{
+  background-color: #60A8AB;
+  color: #fff;
+  width: 50%;
+  margin: auto;
+
+}
